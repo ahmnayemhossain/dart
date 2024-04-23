@@ -43,7 +43,7 @@ class HomeActivity extends StatelessWidget{
 
 class Activity1 extends StatelessWidget{
 
-  String msg;
+  final String msg;
   const Activity1(
       this.msg,
       {super.key}
@@ -66,7 +66,7 @@ class Activity1 extends StatelessWidget{
 }
 
 class Activity2 extends StatelessWidget{
-  String msg;
+  final String msg;
   const Activity2(
       this.msg,
       {super.key}
