@@ -36,7 +36,7 @@ class HomeActivity extends StatelessWidget{
             );
           }
           else{
-            Container(
+            return Container(
               height: 200,
               width: 200,
               color: Colors.red,
